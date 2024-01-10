@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                width: 30vw;
+                height: 20vh;
+                background-color: antiquewhite;
+                padding: 10px;
+            }
+            .container h2{
+                margin-top: 0;
+            }
+            
+            
+            .container table td{
+                border: 1px solid black;
+                padding: 5px 30px 5px 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="Servlet_exercise1" method="POST">
+                <h2><b>Welcome to Shop Book</b></h2>
+                Select Book: 
+                <select name="select_book">
+                    <option value="Ajax 10000">Ajax</option>
+                    <option value="ABC 11000">ABC</option>
+                </select>
+                Amount: <input type="text" name="amount"/>
+                <input type="submit" value="Buy"/>
+            </form>
+        </div>
+        
+    </body>
+</html>
