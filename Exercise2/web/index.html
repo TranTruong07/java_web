@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Servlet_exercise2" method="post">
+            First Name: <input type="text" name="fname"/>
+            Last Name: <input type="text" name="lname"/> <br/><br/>
+            Email Address: <input type="text" name="email"/>
+            Address: <input type="text" name="address"/> <br/><br/>
+            City: <input type="text" name="city"/>
+            Country: <input type="text" name="country"/>
+            Zip: <input type="text" name="zip"/> <br/><br/>
+            Have purchased books in campus bookstore? 
+            <input type="radio" name="choose1" value="Yes"/>Yes
+            <input type="radio" name="choose1" value="No"/>No <br/><br/>
+            Which bookstore do you shop in?
+            <select name="select">
+                <option>Goodwill bookstore</option>
+                <option>ABC bookstore</option>
+            </select> <br/><br/>
+            Have you ever purchased books on the internet?
+            <input type="radio" name="choose2" value="Yes"/>Yes
+            <input type="radio" name="choose2" value="No"/>No <br/><br/>
+            How does shopping on the internet compared to shopping in a campus bookstore?<br/>
+            <!--            <input style="overflow-y: 0; height: 80px;" name="cmt"/>-->
+            <textarea name="cmt" rows="4" cols="60"></textarea>
+            <br/>
+            <input type="submit" value="Send"/>
+        </form>
+    </body>
+</html>
